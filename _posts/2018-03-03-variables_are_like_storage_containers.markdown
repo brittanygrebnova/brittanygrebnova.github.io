@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "* "# Variables are like storage containers!"``"
-date:       2018-03-04 03:41:02 +0000
+title:      "**"# Variables are like storage containers!"**"
+date:       2018-03-03 22:41:04 -0500
 permalink:  variables_are_like_storage_containers
 ---
 
