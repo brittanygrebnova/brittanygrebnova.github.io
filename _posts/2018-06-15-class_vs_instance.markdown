@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Class vs. Instance"
-date:       2018-06-15 21:51:39 +0000
+date:       2018-06-15 17:51:40 -0400
 permalink:  class_vs_instance
 ---
 
@@ -36,7 +36,10 @@ grebnovs = Family.new("Grebnov")
 
 a new instance of the Family class is returned, which looks like this:
 
+```
 #<Family:0x000055b3c0b52df8 @name="Grebnov", @members=[]>
+```
+
 
 This is an instance of the Family class, complete with the name and empty members array that it was initialized with. By initializing this instance of the Family class, I've also increased the family_count by 1 and added the family name to my community of Families.
 
@@ -109,6 +112,7 @@ A simple bit of code but a really valuable exercise for me to understand this co
 
 I'm so relieved to have gone through this additional research in order to better grasp the concept of class vs. instance variables and methods. You can see my code in its entirety below. Thank you for reading!
 
+```
 class Family
 
 attr_accessor :name, :location, :mama, :papa, :kids
@@ -152,6 +156,7 @@ def self.find(family_name)
 end
 
 end
+```
 
 
 
