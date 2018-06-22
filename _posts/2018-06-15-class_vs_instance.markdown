@@ -66,7 +66,7 @@ Now that we've added members to our family, my code has the functionality to fin
 
 ```
 def find(member_name)
-  if @@members.include?(member_name)
+  if @members.include?(member_name)
     "Here's #{member_name}!"
   else 
     "Keep looking!"
