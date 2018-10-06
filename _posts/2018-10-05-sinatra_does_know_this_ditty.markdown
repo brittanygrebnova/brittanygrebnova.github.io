@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra DOES know this ditty."
-date:       2018-10-06 02:41:16 +0000
+date:       2018-10-05 22:41:17 -0400
 permalink:  sinatra_does_know_this_ditty
 ---
 
