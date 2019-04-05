@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "It's now or never."
-date:       2018-02-10 17:36:10 +0000
+date:       2018-02-10 12:36:11 -0500
 permalink:  its_now_or_never
 ---
 
