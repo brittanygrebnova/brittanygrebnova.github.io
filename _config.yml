@@ -1,15 +1,14 @@
 # Site settings
+author: Brittany Grebnov
 title: Learning the Language
 header-img: img/home-bg.png
 email: brittanygrebnova@gmail.com
-copyright_name: brittanygrebnova
+copyright_name: Brittany Grebnov
 description: > # this means to ignore newlines until "baseurl:"
   A Developer's Journey from Beginner to Professional
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username: BGrebnova
 github_username:  brittanygrebnova
-learn_profile: brittanygrebnova
-email_username: brittanygrebnova@gmail.com
 
 # Build settings
 markdown: kramdown
