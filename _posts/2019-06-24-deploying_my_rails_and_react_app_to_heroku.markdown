@@ -5,8 +5,6 @@ date: 2019-06-24 23:59:01 +0000
 permalink: deploying_my_rails_and_react_app_to_heroku
 ---
 
-Deploying a Rails/React App to Heroku
-
 Once I passed my React/Redux final project review, it was time to try deploying my app to Heroku. I encountered a number of errors but, with the help of the Flatiron community, I finally made it work! In this post, I’ll talk about some of the details that helped me get my app successfully deployed to Heroku.
 
 Updating the Ruby Version:
