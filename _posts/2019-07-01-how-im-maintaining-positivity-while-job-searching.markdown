@@ -13,7 +13,7 @@ Getting through any kind of school, especially for moms like me, requires a ton 
 
 <strong>Scarcity vs. Abundance Mindset</strong>
 
-Last week I had 2 phone screenings that went great! Both interviewers told me that they wanted me to move forward to the next step, in-person technical interviews. I was thrilled...until it was 3 days later and all I heard were crickets. No emails to schedule a technical interview and no response to my follow-up messages. I felt myself slipping into a negative place. A scarcity mindset sounds something like “Man, there are SO few job opportunities and SO MANY applicants. HOW can I possibly compete?”. I’m learning to recognize those thoughts and adopt an abundance mindset instead. I think, and truly try to believe with all my heart, “You know what? There’s ONLY ONE ME out there and A LOT companies who could greatly benefit from my unique experience and skill set.”
+Last week I had 2 phone screenings that went great! Both interviewers told me that they wanted me to move forward to the next step, in-person technical interviews. I was thrilled...until it was 3 days later and all I heard were crickets. No emails to schedule a technical interview and no response to my follow-up messages. I felt myself slipping into a negative place. A scarcity mindset sounds something like “Man, there are SO few job opportunities and SO MANY applicants. HOW can I possibly compete?”. I’m learning to recognize those thoughts and adopt an abundance mindset instead. I think, and truly try to believe with all my heart, “You know what? There’s ONLY ONE ME out there and A LOT of companies who could greatly benefit from my unique experience and skill set.”
 
 <strong>Gratitude & an Open Mind</strong>
 
@@ -46,7 +46,9 @@ passport.deserializeUser((id, done) => {
   });
 });
 
-// utilize passport's GoogleStrategy to get the user's google account info and set our mongoDB user's googleId to that user's google profile id through OAuth and save the user
+// utilize passport's GoogleStrategy to get the user's google account
+// info and set our mongoDB user's googleId to that user's google profile
+// id through OAuth, then save the user
 passport.use(
   new GoogleStrategy(
 
