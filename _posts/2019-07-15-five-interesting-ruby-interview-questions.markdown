@@ -5,7 +5,6 @@ date: 2019-07-15 02:25:01 +0000
 permalink: how-im-maintaining-positivity-while-job-searching
 ---
 
-```
 In preparation for software engineering interviews, I’m focusing on getting really good at answering questions about stuff that I already know. I have also been carving out time every day to learn new libraries/frameworks, but for the sake of feeling confident, I want to keep the languages I’ve already learned at the forefront.
 
 I’ve taken 5 questions that I believe are the most interesting from this article: https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer and share my answers to them below.
@@ -41,4 +40,3 @@ What is Object-Relational Mapping?
 Object-relational mapping is a programming technique for accessing and modifying your database without writing direct queries like ‘SELECT’, for example. ActiveRecord is Ruby on Rails’ built-in ORM and allows us to make such calls as Model.create and Model.find.
 How should you store secure data such as a password?
 Encryption is key when storing securing data such as a password. The gem ‘bcrypt’ provides this security and can be implemented by requiring it in the gemfile and adding the line ‘has_secure_password’ inside your user model. Any instance of User will be generated with a password and password confirmation property and, as long as they match, the password is encrypted and stored as password_digest.
-```
