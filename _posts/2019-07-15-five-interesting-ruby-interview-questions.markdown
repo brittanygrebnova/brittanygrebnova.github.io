@@ -21,9 +21,9 @@ One way to describe the difference between class and instance methods is this: a
 
 RESTful routing is a system of mapping client requests to their corresponding actions. We utilize HTTP verbs and connect them to the controller which performs the requested action and points to the view that should be returned to the client. Here’s an example of RESTful routing for an application that allows the user to create and manage their photos:
 
-GET ‘/photos’
-Points to the index action in the photos controller
-Displays a list of all the user’s photos
+<p style="margin-left: 40px">GET ‘/photos’</p>
+<p style="margin-left: 60px">Points to the index action in the photos controller</p>
+<p style="margin-left: 80px">Displays a list of all the user’s photos</p>
 GET ‘photos/new’
 Points to the new action in the photos controller
 Returns the form for the user to create a new photo
