@@ -21,27 +21,28 @@ One way to describe the difference between class and instance methods is this: a
 
 RESTful routing is a system of mapping client requests to their corresponding actions. We utilize HTTP verbs and connect them to the controller which performs the requested action and points to the view that should be returned to the client. Here’s an example of RESTful routing for an application that allows the user to create and manage their photos:
 
-<p style="margin-left: 40px">GET ‘/photos’</p>
+<strong><p style="margin-left: 40px">GET ‘/photos’</p></strong>
+
 <p style="margin-left: 60px">Points to the index action in the photos controller</p>
 <p style="margin-left: 80px">Displays a list of all the user’s photos</p>
-GET ‘photos/new’
-Points to the new action in the photos controller
-Returns the form for the user to create a new photo
-POST ‘/photos’
-Points to the create action in the photos controller (after a user submits the ‘new’ form)
-Creates a new photo
-GET ‘/photos/:id’
-Points to the show action in the photos controller
-Displays the photo with an id that matches that of the URL
-GET ‘/photos/:id/edit’
-Points to the edit action in the photos controller
-Returns the form that allows the user to edit the photo with an id that matches that of the URL
-PATCH/PUT ‘/photos/:id’
-Points to the update action in the photos controller
-Updates the requested photo after user submits the ‘edit’ form
-DELETE ‘/photos/:id’
-Points to the delete action in the photos controller
-Deletes the photo with an id that matches that of the URL
+<strong><p style="margin-left: 40px">GET ‘photos/new’</p></strong>
+<p style="margin-left: 60px">Points to the new action in the photos controller</p>
+<p style="margin-left: 80px">Returns the form for the user to create a new photo</p>
+<strong><p style="margin-left: 40px">POST ‘/photos’</p></strong>
+<p style="margin-left: 60px">Points to the create action in the photos controller (after a user submits the ‘new’ form)</p>
+<p style="margin-left: 80px">Creates a new photo
+<strong><p style="margin-left: 40px">GET ‘/photos/:id’</p></strong>
+<p style="margin-left: 60px">Points to the show action in the photos controller</p>
+<p style="margin-left: 80px">Displays the photo with an id that matches that of the URL</p>
+<strong><p style="margin-left: 40px">GET ‘/photos/:id/edit’</p></strong>
+<p style="margin-left: 60px">Points to the edit action in the photos controller</p>
+<p style="margin-left: 80px">Returns the form that allows the user to edit the photo with an id that matches that of the URL</p>
+<strong><p style="margin-left: 40px">PATCH/PUT ‘/photos/:id’</p></strong>
+<p style="margin-left: 60px">Points to the update action in the photos controller</p>
+<p style="margin-left: 80px">Updates the requested photo after user submits the ‘edit’ form</p>
+<strong><p style="margin-left: 40px">DELETE ‘/photos/:id’</p></strong>
+<p style="margin-left: 60px">Points to the delete action in the photos controller</p>
+<p style="margin-left: 80px">Deletes the photo with an id that matches that of the URL</p>
 
 <strong>4. What is Object-Relational Mapping?</strong>
 
