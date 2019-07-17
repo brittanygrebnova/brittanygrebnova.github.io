@@ -37,7 +37,7 @@ RESTful routing is a system of mapping client requests to their corresponding ac
 <strong>GET ‘/photos/:id/edit’</strong>
 <p style="margin-left: 60px">Points to the edit action in the photos controller</p>
 <p style="margin-left: 80px">Returns the form that allows the user to edit the photo with an id that matches that of the URL</p>
-<strong><p style="margin-left: 40px">PATCH/PUT ‘/photos/:id’</p></strong>
+<strong>PATCH/PUT ‘/photos/:id’</strong>
 <p style="margin-left: 60px">Points to the update action in the photos controller</p>
 <p style="margin-left: 80px">Updates the requested photo after user submits the ‘edit’ form</p>
 <strong>DELETE ‘/photos/:id’</strong>
