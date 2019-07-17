@@ -2,7 +2,7 @@
 layout: post
 title: "5 Interesting Ruby Interview Questions and My Answers"
 date: 2019-07-15 02:25:01 +0000
-permalink: how-im-maintaining-positivity-while-job-searching
+permalink: five-interesting-ruby-interview-questions
 ---
 
 In preparation for software engineering interviews, I’m focusing on getting really good at answering questions about stuff that I already know. I have also been carving out time every day to learn new libraries/frameworks, but for the sake of feeling confident, I want to keep the languages I’ve already learned at the forefront.
