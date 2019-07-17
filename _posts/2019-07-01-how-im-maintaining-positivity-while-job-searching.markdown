@@ -2,7 +2,7 @@
 layout: post
 title: "How I'm Maintaining Positivity While Job Searching"
 date: 2019-07-01 12:57:01 +0000
-permalink: how-im-maintaining-positivity-while-job-searching
+permalink: how_im_maintaining_positivity_while_job_searching
 ---
 
 Since graduating from the Flatiron School’s online self-paced curriculum, I’ve been swimming in a sea of job applications, coding tutorials, and LinkedIn searches. The job search process is one that requires a lot of time and energy. It’s not hard to get deflated and feel helpless, especially after weeks of applying and either not hearing back or being rejected. In this post, I’m going to share some of the steps I’m taking and choices I’m making in order to maintain positivity and balance in the face of rejection and uncertainty.
